@@ -1,12 +1,12 @@
 ## pmx - PMXファイルをparseし、JSON形式で吐き出すパーサ
 
-PMXとはMMDのモデル形式PMDから派生した3Dモデル用ファイルフォーマットで、PMXEditor等でサ
+PMXとはMMDのモデル形式PMDから派生した3Dモデル用ファイルフォーマットで、PMXEditor等でサポートされています。
 http://kkhk22.seesaa.net/category/14045227-1.html
 
 本ライブラリはPMXのモデルデータを解析し、他のモデル形式にコンバートしたり、
 ブラウザ上で直接取り扱えるようにするために開発されたpure JavaScript実装のパーサです。
 
-テストデータとして艦これの赤城を正常に解析できることを確認しています。
+テストデータとして艦これの赤城(作者：ブラスターB さん)を正常に解析できることを確認しています。
 
  * http://www.nicovideo.jp/watch/sm21842536
  * http://ux.getuploader.com/bla001/
