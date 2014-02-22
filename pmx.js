@@ -93,7 +93,7 @@ var BufferReader = (function () {
         return result;
     };
     BufferReader.prototype.readSizedIdx = function (size, signed) {
-        if (typeof signed === "undefined") { signed = false; }
+        if (typeof signed === "undefined") { signed = true; }
         var result = -1;
         switch (size) {
             case 1:

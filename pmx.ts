@@ -93,7 +93,7 @@ export class BufferReader {
 		}
 		return result;
 	}
-	readSizedIdx(size:number, signed=false):number {
+	readSizedIdx(size:number, signed=true):number {
 		var result = -1;
 		switch(size) {
 		case 1:
