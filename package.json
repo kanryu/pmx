@@ -1,0 +1,28 @@
+{
+  "name": "pmx",
+  "main": "pmx.js",
+  "version": "0.0.0",
+  "private": true,
+
+  "description": "pmx - a pure JavaScript Parser for PMX Format(MMD)",
+  "scripts": {
+    "test": "node test_parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/59naga/pmx.git"
+  },
+  "keywords": [
+    "Vocaloid",
+    "VPVP",
+    "MikuMikuDance",
+    "MMD",
+    "PMX"
+  ],
+  "author": "KATO Kanryu <k.kanryu@gmail.com>",
+  "license": "Apache License 2",
+  "bugs": {
+    "url": "https://github.com/59naga/pmx/issues"
+  },
+  "homepage": "https://github.com/59naga/pmx#readme"
+}
